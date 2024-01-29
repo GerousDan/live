@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>BINANCE:BTCUSDT</title>
+    <style>
+      #priceDisplay {
+        margin-top: 20px;
+        border: 1px solid #ddd;
+        padding: 10px;
+      }
+      .price {
+        transition: background-color 0.5s;
+      }
+      .change {
+        font-size: 0.8em;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="priceDisplay">
+      <input
+        type="text"
+        id="symbolInput"
+        placeholder="BINANCE:BTCUSDT"
+        value="BINANCE:BTCUSDT"
+      />
+      <span id="priceElement" class="price"></span>
+      <span id="changeElement" class="change"></span>
+      <span id="timeElement" class="change"></span>
+    </div>
+    <script src="your_script.js"></script>
+  </body>
+</html>
